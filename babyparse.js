@@ -28,7 +28,6 @@
 
 	var Baby = {};
 	Baby.parse = CsvToJson;
-	Baby.parseFiles = ParseFiles;
 	Baby.unparse = JsonToCsv;
 	Baby.RECORD_SEP = String.fromCharCode(30);
 	Baby.UNIT_SEP = String.fromCharCode(31);
@@ -45,9 +44,6 @@
 		var results = ph.parse(_input);
 		return results;
 	}
-
-
-
 
 	function JsonToCsv(_input, _config)
 	{
