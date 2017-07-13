@@ -1,6 +1,6 @@
 {
-	"name": "babyparse",
-	"version": "0.4.6",
+	"name": "babyparse-remove-fs",
+	"version": "0.0.1",
 	"title": "BabyParse",
 	"repository": {
     		"type": "git",
